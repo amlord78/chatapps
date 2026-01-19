@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object Network {
 
     // 🔴 CHANGE THIS TO YOUR VPS
-    private const val BASE_URL = "http://YOUR_VPS_IP:8000/"
+    private const val BASE_URL = "http://72.61.224.147:8000/"
 
     val api: ChatApi by lazy {
         Retrofit.Builder()
